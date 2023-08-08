@@ -622,11 +622,11 @@ main { overflow-x: hidden; }
 
 .toggle-btn.active { color: var(--white); }
 
-.skills-box.active .skills-list,
-.skills-box .tools-list { display: none; }
-
 .skills-box .skills-list,
-.skills-box.active .tools-list {
+.skills-box.active .tools-list { display: none; }
+
+.skills-box.active .skills-list,
+.skills-box .tools-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
