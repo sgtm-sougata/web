@@ -489,7 +489,15 @@ main { overflow-x: hidden; }
 
 .hero .btn-primary { margin-inline: auto; }
 
-
+.mobile-hero-content {
+  display: none;
+}
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .mobile-hero-content {
+    display: block;
+  }
+}
 
 
 
