@@ -499,6 +499,25 @@ main { overflow-x: hidden; }
   }
 }
 
+.desktop-hero{
+  display: none;
+}
+
+.desktop-hero-content{
+  display: none;
+}
+
+@media (min-width: 768px){
+  .desktop-hero{
+    display: block;
+  }
+  .desktop-hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 
 
 
