@@ -501,6 +501,7 @@ main { overflow-x: hidden; }
 
 
 
+
 /*-----------------------------------*\
  * #STATS
 \*-----------------------------------*/
@@ -1144,7 +1145,7 @@ textarea.input-field {
     --color-primary: var(--white);
 
     position: absolute;
-    top: 50%;
+    top: 80%;
     filter: drop-shadow(2px 4px 10px var(--black));
   }
 
