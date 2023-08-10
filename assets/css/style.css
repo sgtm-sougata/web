@@ -452,7 +452,31 @@ body.active { overflow: hidden; }
 
 .navbar-link:is(:hover, :focus)::before { width: 100%; }
 
+/*-----------------------------------*\
+ * #MULTI LANGUAGE
+\*-----------------------------------*/
 
+.goog-te-banner-frame.skiptranslate,
+.goog-te-gadget-simple img {
+  margin-top: 50px;
+  display: none !important;
+}
+
+.VIpgJd-ZVi9od-ORHb-OEVmcd {
+  z-index: 10000001;
+  visibility: hidden;
+  display: none;
+}
+
+.VIpgJd-ZVi9od-l4eHX-hSRGPd {
+  z-index: 10000001;
+  visibility: hidden;
+  display: none;
+}
+
+div.goog-te-gadget {
+  color: transparent !important;
+}
 
 
 
